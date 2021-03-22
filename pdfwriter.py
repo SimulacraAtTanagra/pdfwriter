@@ -10,7 +10,7 @@ import pandas as pd
 import subprocess
 import pyautogui as pig
 from time import sleep
-from emailautosend import mailthat
+from src.emailautosend import mailthat
 
 from datetime import date 
 today=date.today().strftime("%B %d, %Y")
